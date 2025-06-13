@@ -65,7 +65,7 @@ def mostrar_menu():
          
          opcion = input("Elige una opción del 1 al 4: ").strip()
          
-         if opcion.isdigit:
+         if opcion.isdigit():
              if 0 < int(opcion) <5:
                  
                  if int(opcion) == 1:
